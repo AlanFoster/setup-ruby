@@ -42,6 +42,11 @@ jobs:
       if: runner.os == 'Linux'
       run: sudo apt-get install libpcap-dev graphviz
 
+    # - name: Install system dependencies (MacOS)
+    #   if: runner.os == 'macOS'
+    #   run: |
+    #     brew update
+
     - name: Install system dependencies (Windows)
       shell: cmd
       if: runner.os == 'Windows'

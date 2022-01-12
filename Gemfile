@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 # Add default group gems to `metasploit-framework.gemspec`:
 #   spec.add_runtime_dependency '<name>', [<version requirements>]
-gemspec name: 'metasploit-framework'
+# gemspec name: 'metasploit-framework'
 
 # separate from test as simplecov is not run on travis-ci
 group :coverage do
